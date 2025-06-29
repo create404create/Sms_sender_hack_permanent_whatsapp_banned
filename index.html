@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prank SMS Sender</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loading-screen">
+    <h2>Getting this number access...</h2>
+    <p>03702073138</p>
+    <div class="loader"></div>
+  </div>
+
+  <div id="main-interface" class="hidden">
+    <h2>Send Fake Message</h2>
+    <div id="numbers">
+      <input type="text" placeholder="Enter Pakistani number" class="number-input" />
+    </div>
+    <button id="add-number">+ Add Another Number</button>
+
+    <textarea id="message" placeholder="Enter a message here"></textarea>
+    <button id="send">Send</button>
+
+    <div id="status" class="hidden">Sending message...</div>
+    <div id="result" class="hidden">✅ Message sent successfully!</div>
+
+    <footer>
+      <p><strong>Note:</strong> This website is for <u>prank and educational purposes only.</u></p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
